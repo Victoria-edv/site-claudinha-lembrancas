@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Quicksand:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="icon" href="img/favicon.ico">
+    <title>Contato</title>
+
+</head>
+
+<body>
+    <header>
+        <img src="img/logo-claudinha.png" alt="Logo da empresa" width="400" height="200" />
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="contato.html" class="ativo">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contato" id="contato">
+            <h2>Fale Conosco</h2>
+            <p>Preencha o formulário abaixo ou, se preferir, entre em contato pelos outros canais.</p>
+
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="Nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="Mensagem" rows="5" required></textarea>
+                </div>
+                <button type="submit">Enviar Mensagem</button>
+                <div id="form-status"></div>
+            </form>
+            <hr>
+            <p>Outros canais:</p>
+            <ul class="contato-lista">
+                <li>
+                    <i class="fa-solid fa-phone"></i><strong> Telefone:</strong> (79) 98842-8961
+                </li>
+                <li>
+                    <i class="fa-brands fa-whatsapp"></i> <strong> WhatsApp:</strong>
+                    <a href="https://wa.me/5579988428961" target="_blank">Enviar mensagem</a>
+                </li>
+                <li>
+                    <i class="fa-brands fa-instagram"></i><strong> Instagram:</strong>
+                    <a href="https://instagram.com/claudinha.lembrancas?igshid=YmMyMTA2M2Y="
+                        target="_blank">@claudinha.lembrancas</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Claudinha Lembranças. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

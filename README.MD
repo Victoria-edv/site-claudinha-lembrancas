@@ -7,7 +7,7 @@ Este é um site institucional simples e funcional para a artesã "Claudinha Lemb
 
 O site apresenta a história da artesã, uma galeria de produtos com filtro de busca, um modal para visualização de detalhes e um formulário de contato funcional integrado a uma API.
 
-### ✨ [Acesse o site clicando aqui!](https://victoria-edv.github.io/site-claudinha-lembrancas/)
+### ✨ [Acesse o site clicando aqui!](https://site-claudinha-lembrancas.netlify.app/)
 ---
 
 ## 🚀 Funcionalidades Implementadas
